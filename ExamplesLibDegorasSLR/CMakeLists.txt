@@ -92,5 +92,5 @@ endif()
 # INSTALLATION PROCESS
 
 # Installation process.
-
+install (DIRECTORY resources DESTINATION ${CMAKE_BINARY_DIR})
 # ----------------------------------------------------------------------------------------------------------------------
